@@ -1,0 +1,12 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^sudo -n apt-get update && sudo -n apt-get install -y postgresql$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^sudo -n -l 2>&1 \\| sed -n '1,30p'$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
